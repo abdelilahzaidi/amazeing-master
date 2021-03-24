@@ -1,0 +1,99 @@
+.labyrinthe
+{
+    display: flex;
+    width: calc(13*48px);
+    flex-wrap: wrap;
+    display: flex;
+    padding: auto;
+    margin: 4% auto auto auto;
+    
+}
+
+
+.labyrinthe1
+{
+    display: flex;
+    width: calc(22*48px);
+    height:calc(6*48px);
+    flex-wrap: wrap;
+    display: flex;
+    padding: auto;
+    margin: 4% auto auto auto;
+    
+}
+
+
+.labyrinthe2
+{
+    display: flex;
+    width: calc(8*48px);
+    height:calc(12*48px);
+    flex-wrap: wrap;
+    display: flex;
+    padding: auto;
+    margin: 4% auto auto auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tile 
+{
+    width: 46px;
+    height: 46px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.murs 
+{
+    background-color: black;
+    
+
+}
+
+.chemins
+{
+    background-color: grey;
+}
+
+.start 
+{
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+
+.joueur 
+{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.end 
+{
+    display: flex;
+    align-items: center;
+    background-color:yellow;
+}
+.tresor 
+{
+    height: 30px;
+    width: 30px;
+    background: url(images/trsor.jfif);
+}
